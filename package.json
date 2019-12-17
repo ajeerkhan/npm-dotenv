@@ -1,0 +1,15 @@
+{
+  "name": "npm-dot-env",
+  "version": "1.0.0",
+  "description": "demo for dot env and handling env variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "envdemo": "node -r dotenv/config  config-client-no-dotenv.js"
+  },
+  "author": "ajeerkhan@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
